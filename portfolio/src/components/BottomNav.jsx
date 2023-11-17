@@ -17,7 +17,7 @@ const BottomNav = () => {
         label="GitHub"
         icon={<GitHubIcon />}
         component={Link}
-        to="https://github.com/your-github-username"
+        to="https://github.com/Nehaps29"
         target="_blank"
         rel="noopener noreferrer"
       />
@@ -25,7 +25,7 @@ const BottomNav = () => {
         label="LinkedIn"
         icon={<LinkedInIcon />}
         component={Link}
-        to="https://www.linkedin.com/in/your-linkedin-username"
+        to="https://www.linkedin.com/in/neha-sabannavar/"
         target="_blank"
         rel="noopener noreferrer"
       />
