@@ -62,7 +62,7 @@ export default function Contact() {
 
   return (
     <Layout>
-      <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column' }}>
+      <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
         <TextField
           label="Name"
           name="name"
@@ -75,6 +75,7 @@ export default function Contact() {
           required
           error={isNameRequired}
           helperText={isNameRequired ? 'This field is required' : ''}
+          sx={{ width: '50%', marginBottom: '16px', marginTop: '16px', border: '1px solid #00008B' }}
         />
         <TextField
           label="Email"
@@ -89,6 +90,7 @@ export default function Contact() {
           required
           error={isEmailRequired}
           helperText={isEmailRequired ? 'This field is required' : ''}
+          sx={{ width: '50%', marginBottom: '16px', border: '1px solid #00008B' }}
         />
         <TextField
           label="Message"
@@ -103,8 +105,9 @@ export default function Contact() {
           required
           error={isMessageRequired}
           helperText={isMessageRequired ? 'This field is required' : ''}
+          sx={{ width: '50%', marginBottom: '16px', border: '1px solid #00008B' }}
         />
-        <Button type="submit" variant="contained" color="primary" style={{ marginTop: '16px' }}>
+        <Button type="submit" variant="contained" color="primary" style={{ width: '50%', marginBottom: '16px' }}>
           Submit
         </Button>
 
