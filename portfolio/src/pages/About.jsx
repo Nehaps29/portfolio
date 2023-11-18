@@ -14,7 +14,7 @@ export default function About() {
   // const tailwindClassCollection = "bg-red-300 md:bg-blue-500 lg:bg-green-900 flex flex-wrap p-2 m-3"
   return (
      <Layout>
-    <Paper 
+    <div 
     style={styles.background}
     // className={tailwindClassCollection}
     >
@@ -30,7 +30,7 @@ export default function About() {
         imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
         in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
       </Typography>
-    </Paper>
+    </div>
     </Layout>
   );
 }

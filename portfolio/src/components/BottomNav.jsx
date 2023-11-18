@@ -12,7 +12,9 @@ const BottomNav = () => {
   };
 
   return (
-    <BottomNavigation value={value} onChange={handleChange}>
+    <BottomNavigation 
+    sx={{ backgroundColor: '#FFD700' }} 
+     value={value} onChange={handleChange}>
       <BottomNavigationAction
         label="GitHub"
         icon={<GitHubIcon />}

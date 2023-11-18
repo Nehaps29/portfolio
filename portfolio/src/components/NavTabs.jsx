@@ -14,7 +14,13 @@ function NavTabs() {
   ];
 
   return (
-    <AppBar position="sticky">
+    <AppBar
+      position="sticky"
+      sx={{
+        backgroundImage: 'linear-gradient(to right, #001f3f, #FFD700)', // Your gradient colors here
+        backgroundSize: 'cover',
+      }}
+    >
       <Toolbar>
         <Typography variant="h6">Neha Sabannavar</Typography>
         <div style={{ marginLeft: 'auto' }}>

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { TextField, Button, Snackbar } from '@mui/material';
+import { TextField, Button, Snackbar, Typography } from '@mui/material';
 import MuiAlert from '@mui/material/Alert';
 import Layout from '../components/Layout';
 
@@ -63,6 +63,9 @@ export default function Contact() {
   return (
     <Layout>
       <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+        <Typography variant="h5" style={{ fontFamily: 'cursive', marginBottom: '16px', color: 'darkblue', fontStyle: 'italic' }}>
+          Contact me
+        </Typography>
         <TextField
           label="Name"
           name="name"
@@ -75,7 +78,7 @@ export default function Contact() {
           required
           error={isNameRequired}
           helperText={isNameRequired ? 'This field is required' : ''}
-          sx={{ width: '50%', marginBottom: '16px', marginTop: '16px', border: '1px solid #00008B' }}
+          sx={{ width: '50%', marginBottom: '16px', border: '1px solid #00008B' }}
         />
         <TextField
           label="Email"
@@ -111,17 +114,8 @@ export default function Contact() {
           Submit
         </Button>
 
-        <Snackbar
-          open={isSnackbarOpen}
-          autoHideDuration={6000}
-          onClose={handleSnackbarClose}
-        >
-          <MuiAlert
-            elevation={6}
-            variant="filled"
-            onClose={handleSnackbarClose}
-            severity="error"
-          >
+        <Snackbar open={isSnackbarOpen} autoHideDuration={6000} onClose={handleSnackbarClose}>
+          <MuiAlert elevation={6} variant="filled" onClose={handleSnackbarClose} severity="error">
             Please fill in all required fields!
           </MuiAlert>
         </Snackbar>
