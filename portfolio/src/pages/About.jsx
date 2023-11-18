@@ -21,7 +21,7 @@ export default function About() {
       <Typography variant="h4" gutterBottom>
         About Page
       </Typography>
-      <Avatar alt="My Avatar" src='./src/assets/avatar.JPG' sx={{ width: 56, height: 56 }} />
+      <Avatar alt="My Avatar" src='./src/assets/avatar.JPG' sx={{ width: 150, height: 150 }} />
       <Typography>
         Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
         Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
