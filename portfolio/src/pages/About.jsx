@@ -5,8 +5,7 @@ import Layout from '../components/Layout';
 const styles = {
   background: {
     padding: 21,
-    marginTop: 22,
-    backgroundColor: "rgb(70,118,168)"
+    backgroundColor: "rgb(255, 255, 96)"
   }
 }
 
