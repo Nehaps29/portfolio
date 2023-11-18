@@ -1,10 +1,10 @@
 import React from 'react';
-import { Grid, Paper, Typography } from '@material-ui/core';
-import { makeStyles } from '@material-ui/core/styles';
+import { Grid, Paper, Typography } from '@mui/material';
 
-const useStyles = makeStyles((theme) => ({
+
+const useStyles = {
   detailContainer: {
-    margin: theme.spacing(2),
+    margin: "2rem",
   },
   workSide: {
     fontSize: '1.5rem',
@@ -13,24 +13,26 @@ const useStyles = makeStyles((theme) => ({
   bigBox: {
     flexGrow: 1,
     maxWidth: '50%',
-    padding: theme.spacing(2),
+    // padding: theme.spacing(2),
   },
   smallBox: {
     flexGrow: 1,
     maxWidth: '25%',
-    padding: theme.spacing(2),
+    // padding: theme.spacing(2),
   },
   image: {
     width: '100%',
     height: 'auto',
   },
-}));
+};
 
-const MyProjects = () => {
-  const classes = useStyles();
-
+export default function Project() {
+  // const classes = useStyles();
+  const classes = {}
+  
   return (
-    <div className={classes.detailContainer}>
+    
+    <div style={useStyles.detailContainer}>
       <Typography variant="h4" className={classes.workSide}>
         My Work
       </Typography>
@@ -62,7 +64,8 @@ const MyProjects = () => {
         {/* Add similar Grid items for other projects */}
       </Grid>
     </div>
+    
   );
 };
 
-export default MyProjects;
+

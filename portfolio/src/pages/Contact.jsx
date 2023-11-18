@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { TextField, Button, FormControl, InputLabel, Select, MenuItem } from '@material-ui/core';
+import { TextField, Button } from '@mui/material';
 
-const MyForm = () => {
+export default function Contact() {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -23,7 +23,7 @@ const MyForm = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column' }}>
       <TextField
         label="Name"
         name="name"
@@ -46,21 +46,19 @@ const MyForm = () => {
         required
       />
       <TextField
-          label="Message"
-          name="message"
-          value={formData.message}
-          onChange={handleChange}
-          margin="normal"
-          variant="outlined"
-          multiline
-          rows={4}  
-          required
-        />
-      <Button type="submit" variant="contained" color="primary">
+        label="Message"
+        name="message"
+        value={formData.message}
+        onChange={handleChange}
+        margin="normal"
+        variant="outlined"
+        multiline
+        rows={4}
+        required
+      />
+      <Button type="submit" variant="contained" color="primary" style={{ marginTop: '16px' }}>
         Submit
       </Button>
     </form>
   );
-};
-
-export default MyForm;
+}

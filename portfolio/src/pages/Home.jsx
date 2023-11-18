@@ -1,8 +1,8 @@
 import React from 'react';
-import { Typography, Paper } from '@material-ui/core';
+import { Typography, Paper } from '@mui/material';
 import Avatar from '@mui/material/Avatar';
 
-export default function About() {
+export default function Home() {
   return (
     <Paper style={{ padding: 20, marginTop: 20 }}>
       <Typography variant="h4" gutterBottom>

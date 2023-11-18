@@ -1,7 +1,7 @@
 import React from 'react';
 import { Typography, Link, List, ListItem, ListItemText } from '@mui/material';
 
-const ResumePage = () => {
+export default function Resume() {
   return (
     <div>
       <Typography variant="h1">Developer's Resume</Typography>
@@ -31,4 +31,4 @@ const ResumePage = () => {
   );
 };
 
-export default Resume;
+
