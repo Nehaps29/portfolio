@@ -18,9 +18,9 @@ export default function About() {
     style={styles.background}
     // className={tailwindClassCollection}
     >
-      <Typography variant="h4" gutterBottom>
-        About Page
-      </Typography>
+      <Typography variant="h5" style={{ fontFamily: 'cursive', marginBottom: '16px', color: 'darkblue', fontStyle: 'italic' }}>
+          About Me
+        </Typography>
       <Avatar alt="My Avatar" src='./src/assets/avatar.JPG' sx={{ width: 150, height: 150 }} />
       <Typography>
         Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
