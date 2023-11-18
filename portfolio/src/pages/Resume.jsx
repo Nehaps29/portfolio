@@ -1,8 +1,9 @@
 import React from 'react';
 import { Typography, Link, List, ListItem, ListItemText } from '@mui/material';
-
+import Layout from '../components/Layout';
 export default function Resume() {
   return (
+    <Layout>
     <div>
       <Typography variant="h1">Developer's Resume</Typography>
       
@@ -28,6 +29,7 @@ export default function Resume() {
         {/* Add more proficiencies as needed */}
       </List>
     </div>
+    </Layout>
   );
 };
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Typography, Paper } from '@mui/material';
 import Avatar from '@mui/material/Avatar';
-
+import Layout from '../components/Layout';
 const styles = {
   background: {
     padding: 21,
@@ -14,6 +14,7 @@ export default function About() {
 
   // const tailwindClassCollection = "bg-red-300 md:bg-blue-500 lg:bg-green-900 flex flex-wrap p-2 m-3"
   return (
+     <Layout>
     <Paper 
     style={styles.background}
     // className={tailwindClassCollection}
@@ -31,5 +32,6 @@ export default function About() {
         in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
       </Typography>
     </Paper>
+    </Layout>
   );
 }

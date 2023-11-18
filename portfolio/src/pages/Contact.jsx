@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { TextField, Button } from '@mui/material';
-
+import Layout from '../components/Layout';
 export default function Contact() {
   const [formData, setFormData] = useState({
     name: '',
@@ -23,6 +23,7 @@ export default function Contact() {
   };
 
   return (
+    <Layout>
     <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column' }}>
       <TextField
         label="Name"
@@ -60,5 +61,6 @@ export default function Contact() {
         Submit
       </Button>
     </form>
+    </Layout>
   );
 }

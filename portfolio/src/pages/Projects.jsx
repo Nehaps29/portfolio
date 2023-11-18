@@ -1,6 +1,6 @@
 import React from 'react';
 import { Grid, Paper, Typography } from '@mui/material';
-
+import Layout from '../components/Layout';
 
 const useStyles = {
   detailContainer: {
@@ -31,31 +31,31 @@ export default function Project() {
   const classes = {}
   
   return (
-    
+    <Layout>
     <div style={useStyles.detailContainer}>
-      <Typography variant="h4" className={classes.workSide}>
+      <Typography variant="h4" style={useStyles.workSide}>
         My Work
       </Typography>
-      <Grid container spacing={2} className={classes.workFlexContainer}>
+      <Grid container spacing={2} style={useStyles.workFlexContainer}>
         <Grid item xs={12} sm={6} md={3}>
-          <Paper className={classes.bigBox}>
+          <Paper style={useStyles.bigBox}>
             <a href="https://nehaps29.github.io/Horiseon_optimization/">
               <img
                 src="./assets/images/code_refactor.JPG"
                 alt="code-optimization"
-                className={classes.image}
+                style={useStyles.image}
               />
               <Typography variant="caption">Horiseon Optimization</Typography>
             </a>
           </Paper>
         </Grid>
         <Grid item xs={12} sm={6} md={3}>
-          <Paper className={classes.smallBox}>
+          <Paper style={useStyles.smallBox}>
             <a href="https://nehaps29.github.io/prework_study_guide/">
               <img
                 src="./assets/images/pre_study.JPG"
                 alt="pre-work-study-guide"
-                className={classes.image}
+                style={useStyles.image}
               />
               <Typography variant="caption">Pre-Work Study Guide</Typography>
             </a>
@@ -64,7 +64,7 @@ export default function Project() {
         {/* Add similar Grid items for other projects */}
       </Grid>
     </div>
-    
+    </Layout>
   );
 };
 
