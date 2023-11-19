@@ -7,7 +7,7 @@ const Resume = () => {
     <Layout>
       <div>
         <Typography variant="h5" style={{ fontFamily: 'cursive', fontStyle: 'italic' }}>Developer's Resume</Typography>
-        <Link href="./src/assets/resume.pdf" download="resume.pdf">
+        <Link href="./assets/resume.pdf" download="resume.pdf">
           Download Resume
         </Link>
         <div style={{ marginBottom: '20px' }} />

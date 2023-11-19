@@ -13,7 +13,7 @@ const BottomNav = () => {
   };
 
   return (
-    <BottomNavigation 
+    <BottomNavigation position="sticky"
     sx={{ backgroundColor: '#FFD700' }} 
      value={value} onChange={handleChange}>
       <BottomNavigationAction

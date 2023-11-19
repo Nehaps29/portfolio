@@ -20,7 +20,7 @@ export default function About() {
       <Typography variant="h5" style={{ fontFamily: 'cursive', marginBottom: '16px', color: 'darkblue', fontStyle: 'italic' }}>
           About Me
         </Typography>
-      <Avatar alt="My Avatar" src='./src/assets/avatar.JPG' sx={{ width: 150, height: 150, marginBottom: '16px' }} />
+      <Avatar alt="My Avatar" src='./assets/avatar.jpg' sx={{ width: 150, height: 150, marginBottom: '16px' }} />
       <Typography>
       Hello! My name is Neha and I am currently a bootcamp student at Rutgers University. (Completion date: Dec 2023 ) 
       I have been working in the IT industry for more than 8 years and now getting ready to jump into full stack software development. Currently I am working as SQA Analyst and have previously worked as ETL Tester. I am skilled in Informatica development. 
