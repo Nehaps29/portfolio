@@ -6,7 +6,7 @@ function NavTabs() {
   const currentPage = useLocation().pathname;
 
   const tabData = [
-    { label: 'Home', path: '/' },
+   
     { label: 'About', path: '/About' },
     { label: 'Projects', path: '/Projects' },
     { label: 'Contact', path: '/Contact' },
