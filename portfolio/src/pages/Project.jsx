@@ -68,10 +68,10 @@ export default function Project() {
             </CardActionArea>
             <CardActionArea href={project.github}>
             
-              <CardContent sx = {{borderTop: '1px solid black'}}>
+              <CardContent sx = {{borderTop: '1px solid black', height: 20 }}>
               
                 <Typography gutterBottom variant="h6" component="div">
-                   Click here: Github Repo for {project.title}
+                   Click here for Github Repo 
                 </Typography>
                 
               </CardContent>
