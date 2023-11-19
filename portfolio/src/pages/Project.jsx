@@ -52,11 +52,11 @@ export default function Project() {
         </Typography>
       <div style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap' }}>
         {projects.map((project, index) => (
-          <Card key={index} sx={{ width: 200, margin: '12px' }}>
+          <Card key={index}  sx={{ width: 300, margin: '12px' }}>
             <CardActionArea href={project.link}>
               <CardMedia
                 component="img"
-                height="140"
+                height="80"
                 image={project.image}
                 alt={project.title}
               />
@@ -67,10 +67,13 @@ export default function Project() {
               </CardContent>
             </CardActionArea>
             <CardActionArea href={project.github}>
+            
               <CardContent sx = {{borderTop: '1px solid black'}}>
+              
                 <Typography gutterBottom variant="h6" component="div">
                    Click here: Github Repo for {project.title}
                 </Typography>
+                
               </CardContent>
             </CardActionArea>
           </Card>

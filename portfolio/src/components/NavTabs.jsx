@@ -17,8 +17,7 @@ function NavTabs() {
     <AppBar
       position="sticky"
       sx={{
-        backgroundImage: 'linear-gradient(to right, #001f3f, #FFD700)', // Your gradient colors here
-        backgroundSize: 'cover',
+        backgroundImage: 'linear-gradient(to right, #001f3f, #FFD700)', 
       }}
     >
       <Toolbar>
