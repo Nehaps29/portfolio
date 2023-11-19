@@ -28,10 +28,10 @@ function NavTabs() {
             value={currentPage}
             sx={{
               '.custom-tab.active': {
-                backgroundColor: '#e0e0e0', /* Active tab background color */
+                backgroundColor: '#e0e0e0', 
               },
               '.custom-tab.hover:hover': {
-                backgroundColor: '#f5f5f5', /* Hovered tab background color */
+                backgroundColor: '#f5f5f5', 
               }
             }}
           >
