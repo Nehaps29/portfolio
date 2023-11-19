@@ -22,7 +22,7 @@ function NavTabs() {
       }}
     >
       <Toolbar>
-        <Typography variant="h6">Neha Sabannavar</Typography>
+        <Typography variant="h6" style={{ fontFamily: 'cursive', color: 'yellow', fontStyle: 'italic' }}>Neha Sabannavar</Typography>
         <div style={{ marginLeft: 'auto' }}>
           <Tabs
             value={currentPage}

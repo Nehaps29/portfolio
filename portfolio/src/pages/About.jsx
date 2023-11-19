@@ -4,8 +4,7 @@ import Avatar from '@mui/material/Avatar';
 import Layout from '../components/Layout';
 const styles = {
   background: {
-    padding: 21,
-    backgroundColor: "rgb(255, 255, 96)"
+    padding: 21
   }
 }
 

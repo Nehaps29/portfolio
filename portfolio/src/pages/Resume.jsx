@@ -11,13 +11,18 @@ const Resume = () => {
           Download Resume
         </Link>
         <div style={{ marginBottom: '20px' }} />
-        <Typography variant="h5" style={{ fontFamily: 'cursive', fontStyle: 'italic' }}>Proficiencies</Typography>
+        <Typography variant="h5" style={{ fontFamily: 'cursive', fontStyle: 'italic' }}>Front End Proficiencies</Typography>
         <ul>
           <li>React.js</li>
           <li>JavaScript</li>
           <li>HTML</li>
           <li>CSS</li>
+        </ul>
+        <Typography variant="h5" style={{ fontFamily: 'cursive', fontStyle: 'italic' }}>Back End Proficiencies</Typography>
+        <ul>
+          <li>Postgresql</li>
           <li>Mongoose</li>
+          <li>SQL</li>
         </ul>
       </div>
     </Layout>
