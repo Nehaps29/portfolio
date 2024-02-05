@@ -22,9 +22,9 @@ export default function About() {
         </Typography>
       <Avatar alt="My Avatar" src='./assets/avatar.jpg' sx={{ width: 150, height: 150, marginBottom: '16px' }} />
       <Typography>
-      Hello! My name is Neha and I am currently a bootcamp student at Rutgers University. (Completion date: Dec 2023 ) 
-      I have been working in the IT industry for more than 8 years and now getting ready to jump into full stack software development. Currently I am working as SQA Analyst and have previously worked as ETL Tester. I am skilled in Informatica development. 
-      Note: Will be adding more details soon
+      Greetings! I'm Neha, a Software Engineer wielding my skills at AG Mednet. When I'm not immersed in the realm of coding, I indulge in crafting intricate MERN full-stack applications. At this very moment, I'm engrossed in sculpting an innovative platform called "Circling" for my friend, aimed at revolutionizing the landscape of social meditation.
+      As a fervent learner, I'm currently diving into the depths of "Chip War" by the illustrious Chris Miller, seeking inspiration and insight to fuel my creative endeavors.
+      Stay tuned for forthcoming updates as I weave together the fabric of innovation and imagination into tangible masterpieces.
       </Typography>
     </div>
     </Layout>
