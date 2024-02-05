@@ -11,12 +11,6 @@ import Layout from '../components/Layout';
 export default function Project() {
   const projects = [
     {
-      title: 'Horiseon Optimization',
-      image:  './assets/code_refactor.jpg',
-      link: 'https://nehaps29.github.io/Horiseon_optimization/',
-      github: 'https://github.com/Nehaps29/Horiseon_optimization'
-    },
-    {
       title: 'Book Search App',
       image: './assets/book.jpg',
       link: 'https://abrentis.github.io/Virtual-Book-Store-v2/',
@@ -32,16 +26,16 @@ export default function Project() {
       link: 'https://nehaps29.github.io/weather_app/'
     },
     {
-      title: 'Text Editor App',
-      image: './assets/Capture.jpg',
-      link: 'https://lit-mountain-41070-3310543b3f22.herokuapp.com/',
-      github: 'https://github.com/Nehaps29/pwatexteditor'
+      title: 'Friendly Fleur',
+      image: './assets/fleur.jpg',
+      link: 'https://jsxperience.onrender.com/',
+      github: 'https://github.com/Nehaps29/jsxperience'
     },
     {
-      title: 'Note Taker App',
-      image: './assets/note.jpg',
-      link: 'https://vast-tundra-45112-80cd8ed984a3.herokuapp.com/',
-      github: 'https://github.com/Nehaps29/simple-note-taker'
+      title: 'My portfolio in witout React library',
+      image: './assets/note1.jpg',
+      link: 'https://nehaps29.github.io/neha_s_profile/',
+      github: 'https://github.com/Nehaps29/neha_s_profile'
     }
   ];
 
